@@ -1,0 +1,28 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "my new node app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nalinee-Kant-ss/node-test-app.git"
+  },
+  "author": "Neil kant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nalinee-Kant-ss/node-test-app/issues"
+  },
+  "homepage": "https://github.com/Nalinee-Kant-ss/node-test-app#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1"
+  }
+}
